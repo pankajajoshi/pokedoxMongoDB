@@ -28,6 +28,7 @@ Practicing index and show, new and create routes with express
 <li>Express</li>
 <li>Node</li>
 <li>JSX</li>
+<li>MongoDB</li>
   
 </ul>
 
