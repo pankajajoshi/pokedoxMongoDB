@@ -23,7 +23,7 @@ const Pokemon = require("./models/Pokedex");
 
 app.get("/", (req, res) => {
   res.send(
-    "<style>body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: lightyellow; font-size: 40px; }</style><div><h1>Welcome to the Pokemon App!</h1></div>"
+    "<style>body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: lightyellow; font-size: 40px; }</style><div><h1>Welcome to the Pokedex Creating MogoDB App!</h1></div>"
   );
 });
 

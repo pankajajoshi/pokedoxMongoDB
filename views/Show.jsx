@@ -20,10 +20,15 @@ class Show extends React.Component {
     // Assuming you have a `pokemon` prop containing the Pokemon datafrom your 'database'
     const { pokemon } = this.props;
 
+    // Manipulate the data to add ".jpg" to the end of the image URL
+    const updatedPokemon = { ...pokemon, image: `${pokemon.image}.jpg` };
+
     return (
       <div style={myStyle}>
-        <h1>{pokemon.name}</h1>
-        <img src={pokemon.image} alt={pokemon.name} />
+        <h1>Gotta Catch 'Em All</h1>
+        <h2>{pokemon.name}</h2>
+        <img src={updatedPokemon.image} alt={updatedPokemon.name} />
+        <a href={"/pokemon"}>Back</a>
       </div>
     );
   }

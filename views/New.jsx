@@ -28,6 +28,7 @@ class New extends React.Component {
           <input type="text" id="image" name="image" required />
 
           <button type="submit">Create</button>
+          <a href={"/pokemon"}>Back</a>
         </form>
       </div>
     );
